@@ -1,0 +1,6 @@
+
+<% if ! name.nil? then -%># <%= name %>
+<% end -%>
+<%= scope.lookupvar('id') %>="<% params.keys.each do |k| -%>
+ --<%= k -%> '<%= params[k] -%>'<% end -%>
+"

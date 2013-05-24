@@ -1,0 +1,8 @@
+name		'extagent'
+version		'1.0'
+author		'Jiri Tyr'
+license		'GPL'
+dependency	'puppetlabs/hiera'
+summary		'Puppet module for deploymnet of the SNMP Extension Agent'
+description	'SNMP Extension Agent (extagent) is a set of monitoring sensors which extend the functionality of the standard SNMP daemon.'
+project_page	'http://jtyr.github.io/puppet-extagent'
