@@ -12,7 +12,7 @@
 <%= k.upcase %> = <%= params[k] %>
 
 <% end -%>
-<% case id when 'daemon' -%>
+<% case myid when 'daemon' -%>
 <% when 'table-maker' -%>
 <% when 'cert-expiry' -%>
 NET_OID = <%= scope.lookupvar('extagent::oid_prefix') %>.<%= oid_postfix %>.1

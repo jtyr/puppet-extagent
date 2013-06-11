@@ -7,6 +7,9 @@ define extagent::module::default(
 
 ) {
 
+  # Clone the id variable for the default template (id variable is something else there)
+  $myid = $id
+
   # Make sure that the extagent class is loaded
   Class {
     require => Class['extagent'],

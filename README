@@ -6,7 +6,8 @@
 Description
 -----------
 
-Puppet module for deploymnet of the SNMP Extension Agent.
+Puppet module for deployment of the SNMP Extension Agent
+(http://jtyr.github.io/extagent).
 
 
 License
