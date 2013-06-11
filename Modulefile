@@ -1,5 +1,5 @@
 name		'extagent'
-version		'1.0'
+version		'1.1'
 author		'Jiri Tyr'
 license		'GPL'
 dependency	'puppetlabs/hiera'
